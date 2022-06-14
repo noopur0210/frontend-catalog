@@ -11,17 +11,19 @@ body {
     line-height: 1.5;
 }
 
-/*---------- NAVBAR ------------*/
-.navbar {
+/*---------- NAVBAR AND HEADER ------------*/
+.navbar, 
+.about {
     background-color: #112D4E;
     color: #F9F7F7;
 }
 
-.navbar__container {
+.navbar__container, 
+.header {
     display: flex;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 10px 30px;
+    padding: 20px 30px;
     justify-content: space-between;
     align-items: center;
 }
@@ -29,7 +31,7 @@ body {
 .logo {
     font-family: 'Pacifico', cursive;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .nav {
@@ -49,4 +51,26 @@ body {
 
 .navbar ul li a:hover {
     color: #3F72AF;
+}
+
+.header {
+    min-height: 400px;
+}
+
+.header__img {
+    max-width: 300px;
+}
+
+.header__text {
+    max-width: 650px;
+}
+
+.header__heading {
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.header__text {
+    line-height: 1.8;
+    font-size: 18px;
 }
