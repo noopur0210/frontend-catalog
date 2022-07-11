@@ -8,17 +8,20 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
     line-height: 1.5;
+    color: #112D4E;
+    background: #a1c3ff;
 }
 
 /*---------- NAVBAR AND HEADER ------------*/
-.navbar, 
+.navbar,
 .about {
-    background-color: #112D4E;
-    color: #F9F7F7;
+    background: #3474e6;
+    color: #fff;
 }
 
-.navbar__container, 
+.navbar__container,
 .header {
     display: flex;
     max-width: 1100px;
@@ -39,18 +42,19 @@ body {
 }
 
 .nav__link {
-    color: #F9F7F7;
+    color: #fff;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .navbar ul li {
     list-style: none;
     margin-right: 30px;
-    opacity: 80%;
 }
 
 .navbar ul li a:hover {
-    color: #3F72AF;
+    color: lightblue;
 }
 
 .header {
@@ -58,11 +62,8 @@ body {
 }
 
 .header__img {
-    max-width: 300px;
-}
-
-.header__text {
-    max-width: 650px;
+    max-width: 400px;
+    min-width: 350px;
 }
 
 .header__heading {
@@ -71,6 +72,80 @@ body {
 }
 
 .header__text {
+    max-width: 650px;
     line-height: 1.8;
     font-size: 18px;
+}
+
+
+
+
+/*---------- RESOURCES SECTION ------------*/
+
+.resources {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.resources__header {
+    text-align: center;
+    margin: 50px 0;
+    padding: 0 50px;
+}
+
+.resources__heading {
+    font-size: 2.7rem;
+    padding-bottom: 30px;
+}
+
+.resources__text {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.resources__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 150px;
+}
+
+.resources__card-item {
+    background: #0a51cc;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.resources__card-item__header {
+    display: flex;
+    align-items: center;
+}
+
+.resources__card-item__header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.resources__card-item__header a:hover {
+    text-decoration: underline;
+    color: lightblue;;
+}
+
+.resources__card-item__header h3 {
+    font-size: larger;
+}
+
+.resources__card-item__header .resources__card-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.resources__card-item__text {
+    margin: 20px 0;
+    font-size: medium;
 }

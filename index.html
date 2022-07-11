@@ -15,7 +15,9 @@
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="#" class="nav__link"><h2 class="logo">FrotendCatalog</h2></a>
+            <a href="#" class="nav__link">
+                <h2 class="logo">FrotendCatalog</h2>
+            </a>
             <ul class="nav">
                 <li><a href="#about" class="nav__link">About</a></li>
                 <li><a href="#projects" class="nav__link">Projects</a></li>
@@ -32,55 +34,70 @@
                     Hello World:)
                 </h1>
                 <p class="header__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quibusdam exercitationem adipisci
-                    officiis similique velit accusantium minus? Expedita, odit et! Alias explicabo cupiditate molestiae quia
-                    necessitatibus, ipsam consequuntur deleniti?
+                    Welcome to my Frontend Catalog. Here is a collection of all the frontend templates and components
+                    I've built using various frontend dev tools.
                 </p>
             </div>
-            <img src="./images/header-img.jpg" alt="header-image" class="header__img">
+            <img src="./images/header-img.svg" alt="header-image" class="header__img">
         </div>
     </header>
 
 
     <!-- RESOURCES SECTION-->
     <section class="resources">
-        <h2 class="resources__heading">Resources</h2>
-        <p class="resources__text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, eligendi cum cupiditate accusantium
-            recusandae
-            voluptatem expedita iusto eum voluptas, assumenda quae maiores voluptatibus! Voluptatibus aperiam numquam
-            sunt
-            odit totam qui.
-        </p>
+        <div class="resources__header">
+            <h2 class="resources__heading">Resources</h2>
+            <p class="resources__text">
+                Learning web development is a task which intimidates a lot of beginners because of the abundance of Even
+                though I'm still learning, here are some of the resources I've
+                found the most useful and appropriate for learners at all skill levels.
+            </p>
+        </div>
         <div class="resources__container">
             <div class="resources__card-item">
-                <img src="./images/resources_img-1.jpg" alt="Frontend Mentor Logo" class="resources__card-img">
-                <h3 class="resources__card-heading">Frotend Mentor</h3>
-                <p class="resources__text">
+                <div class="resources__card-item__header">
+                    <img src="./images/resources_img-1.jpg" alt="Traversy Media Logo" class="resources__card-img">
+                    <a href="https://www.traversymedia.com/" class="resources__link">
+                        <h3 class="resources__card-heading">Traversy Media</h3>
+                    </a>
+                </div>
+                <p class="resources__card-item__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eius corrupti quisquam deserunt
                     commodi, laboriosam quos ut ullam veniam culpa!
                 </p>
             </div>
             <div class="resources__card-item">
-                <img src="./images/resources_img-1.jpg" alt="Frontend Mentor Logo" class="resources__card-img">
-                <h3 class="resources__card-heading">Frotend Mentor</h3>
-                <p class="resources__text">
+                <div class="resources__card-item__header">
+                    <img src="./images/resources_img-2.jpg" alt="Kevin Powell Image" class="resources__card-img">
+                    <a href="https://www.kevinpowell.co/" class="resources__link">
+                        <h3 class="resources__card-heading">Kevin Powell</h3>
+                    </a>
+                </div>
+                <p class="resources__card-item__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eius corrupti quisquam deserunt
                     commodi, laboriosam quos ut ullam veniam culpa!
                 </p>
             </div>
             <div class="resources__card-item">
-                <img src="./images/resources_img-1.jpg" alt="Frontend Mentor Logo" class="resources__card-img">
-                <h3 class="resources__card-heading">Frotend Mentor</h3>
-                <p class="resources__text">
+                <div class="resources__card-item__header">
+                    <img src="./images/resources_img-3.jpg" alt="freeCodeCamp Logo" class="resources__card-img">
+                    <a href="https://www.freecodecamp.org/" class="resources__link">
+                        <h3 class="resources__card-heading">freeCodeCamp.org</h3>
+                    </a>
+                </div>
+                <p class="resources__card-item__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eius corrupti quisquam deserunt
                     commodi, laboriosam quos ut ullam veniam culpa!
                 </p>
             </div>
             <div class="resources__card-item">
-                <img src="./images/resources_img-1.jpg" alt="Frontend Mentor Logo" class="resources__card-img">
-                <h3 class="resources__card-heading">Frotend Mentor</h3>
-                <p class="resources__text">
+                <div class="resources__card-item__header">
+                    <img src="./images/resources_img-4.jpg" alt="Frontend Mentor Logo" class="resources__card-img">
+                    <a href="https://www.frontendmentor.io/" class="resources__link">
+                        <h3 class="resources__card-heading">Frontend Mentor</h3>
+                    </a>
+                </div>
+                <p class="resources__card-item__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eius corrupti quisquam deserunt
                     commodi, laboriosam quos ut ullam veniam culpa!
                 </p>
@@ -91,10 +108,65 @@
 
     <!-- PROJECTS SECTION-->
     <section class="projects" id="projects">
-        <h2 class="projects__heading">Projects</h2>
-        <p class="projects__text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </p>
+        <div class="projects__header">
+            <h2 class="projects__heading">Projects</h2>
+            <p class="projects__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+        </div>
+        <div class="projects__container">
+            <div class="project__item">
+                <div class="project__heading">
+                    <h3 class="project__name">
+                        QR Code Component
+                    </h3>
+                    <img src="./qr-code-component/images/screenshot.jpg" alt="" class="project__img">
+                </div>
+                <div class="project__info">
+                    <p class="project__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio, mollitia at in quidem.
+                    </p>
+                    <div class="project__buttons">
+                        <button><a href="">Live</a></button>
+                        <button><a href="">Code</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project__item">
+                <div class="project__heading">
+                    <h3 class="project__name">
+                        QR Code Component
+                    </h3>
+                    <img src="./qr-code-component/images/screenshot.jpg" alt="" class="project__img">
+                </div>
+                <div class="project__info">
+                    <p class="project__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio, mollitia at in quidem.
+                    </p>
+                    <div class="project__buttons">
+                        <button><a href="">Live</a></button>
+                        <button><a href="">Code</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="project__item">
+                <div class="project__heading">
+                    <h3 class="project__name">
+                        QR Code Component
+                    </h3>
+                    <img src="./qr-code-component/images/screenshot.jpg" alt="" class="project__img">
+                </div>
+                <div class="project__info">
+                    <p class="project__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio, mollitia at in quidem.
+                    </p>
+                    <div class="project__buttons">
+                        <button><a href="">Live</a></button>
+                        <button><a href="">Code</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
