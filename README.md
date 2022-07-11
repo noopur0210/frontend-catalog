@@ -5,4 +5,4 @@ List of all the projects
 
 | Name       | Tech used | Live link |
 | ----------- | ----------- | ----------- |
-| [qr-code-component](https://github.com/noopur0210/qr-code-component) | HTML, CSS     | [link](https://noopur0210.github.io/qr-code-component/)       |
+| [qr-code-component](https://github.com/noopur0210/frontend-catalog/tree/main/qr-code-component) | HTML, CSS     | [link](https://noopur0210.github.io/qr-code-component/)       |

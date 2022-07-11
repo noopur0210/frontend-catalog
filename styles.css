@@ -84,18 +84,17 @@ body {
 
 .resources {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px 30px;
 }
 
 .resources__header {
     text-align: center;
-    margin: 50px 0;
     padding: 0 50px;
 }
 
 .resources__heading {
-    font-size: 2.7rem;
+    font-size: 2.3rem;
     padding-bottom: 30px;
 }
 
@@ -131,7 +130,8 @@ body {
 
 .resources__card-item__header a:hover {
     text-decoration: underline;
-    color: lightblue;;
+    color: lightblue;
+    ;
 }
 
 .resources__card-item__header h3 {
@@ -148,4 +148,98 @@ body {
 .resources__card-item__text {
     margin: 20px 0;
     font-size: medium;
+}
+
+
+
+/*---------- PROJECTS SECTION ------------*/
+
+.projects {
+    background: #3474e6;
+    color: #fff;
+}
+
+.projects_ {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 30px 50px;
+    text-align: center;
+}
+
+.projects__header {
+    padding: 50px 50px;
+}
+
+.projects__heading {
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+}
+
+.projects__text {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.projects__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.project__item {
+    background: #0a51cc;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+.project__heading {
+    text-align: center;
+    margin: 7px 0;
+}
+
+.project__name {
+    margin: 15px auto;
+    font-size: larger;
+}
+
+.project__img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.project__info {
+    margin: 20px auto;
+}
+
+.project__desc {
+    font-size: medium;
+    margin-bottom: 25px;
+}
+
+.project__buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project__info .project__button {
+    padding: 15px 20px;
+    border-radius: 20%;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: large;
+}
+
+.project__info .project__button:hover {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    background-color: #3474e6;
+}
+
+.project__info .project__button a {
+    text-decoration: none;
+    color: #fff;
 }
